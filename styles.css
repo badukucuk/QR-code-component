@@ -5,15 +5,16 @@ body {
     background-color: rgb(213, 225, 239);
     font-family: outfit;
     margin: 0;
-    padding: 50px 40px;
+    padding: 0 50px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card {
+main {
     background-color: white;
-    width: 320px;
+    max-width: 20rem;
     text-align: center;
     padding: 16px 16px 40px 16px;
     border-radius: 20px;
@@ -25,7 +26,7 @@ img {
     margin-bottom: 24px;
 }
 
-.title {
+h2 {
     font-size: 22px;
     line-height: 120%;
     font-weight: bold;
@@ -33,7 +34,7 @@ img {
     color: rgb(31, 49, 79);
 }
 
-.bottom-text {
+p {
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.2px;
